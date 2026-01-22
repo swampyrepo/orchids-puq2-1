@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>404 - Page Not Found</title>
+    <link rel="stylesheet" href="https://www.rumahotp.com/assets/vendor/fonts/iconify-icons.css" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: #0D1117;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+
+        .error-code {
+            font-size: min(10rem, 10vw);
+            font-weight: 900;
+            margin-bottom: 1rem;
+            text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
+            line-height: 1;
+            background: linear-gradient(45deg, #42A5F5, #64B5F6, #42A5F5);
+            background-size: 200% 200%;
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .error-title {
+            font-size: min(2.5rem, 8vw);
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+        }
+
+        .error-message {
+            font-size: min(1.2rem, 4.5vw);
+            max-width: 600px;
+            line-height: 1.6;
+            margin-bottom: 2.5rem;
+            opacity: 0.9;
+            width: 100%;
+            padding: 0 10px;
+        }
+
+        .action-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 3rem;
+            width: 100%;
+            max-width: 340px;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .btn-primary {
+            background: white;
+            color: black;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 1rem;
+            font-size: 0.9rem;
+            background: #0D1117;
+        }
+
+        @keyframes float {
+            from { transform: translateY(100vh) rotate(0deg); }
+            to { transform: translateY(-100px) rotate(360deg); }
+        }
+
+        @media (max-width: 480px) {
+            .action-buttons {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="error-code">404</div>
+    
+    <h1 class="error-title">Page Not Found</h1>
+    
+    <p class="error-message">
+        Halaman website yang Anda cari tidak ada atau telah dipindahkan.
+        Silakan periksa URL atau kembali ke beranda kami.
+    </p>
+    
+    <div class="action-buttons">
+        <a href="/" class="btn btn-primary">
+            <i class="bx bx-home"></i> Go Back Home
+        </a>
+        <div style="display: flex; gap: 15px; width: 100%;">
+            <a href="javascript:void(0)" onclick="history.back()" class="btn btn-secondary" id="back-btn">
+                <i class="bx bx-arrow-back"></i> Go Back
+            </a>
+            <a href="https://t.me/cs_rumahotp" class="btn btn-secondary">
+                <i class="bx bxl-telegram"></i> Support
+            </a>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>&copy; 2025 • PT Cindigital Multisystem Cloud. If you need immediate assistance, please contact our support team.</p>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const body = document.body;
+            for (let i = 0; i < 15; i++) {
+                const dot = document.createElement('div');
+                dot.style.position = 'fixed';
+                dot.style.width = Math.random() * 6 + 2 + 'px';
+                dot.style.height = dot.style.width;
+                dot.style.background = 'rgba(255, 255, 255, 0.5)';
+                dot.style.borderRadius = '50%';
+                dot.style.left = Math.random() * 100 + 'vw';
+                dot.style.top = Math.random() * 100 + 'vh';
+                dot.style.zIndex = '-1';
+                dot.style.animation = `float ${Math.random() * 10 + 10}s linear infinite`;
+                body.appendChild(dot);
+            }
+        });
+    </script>
+</body>
+</html>

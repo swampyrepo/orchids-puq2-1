@@ -313,7 +313,7 @@ export default function Home() {
 
       {isSuspicious && !isVerified ? (
         <div className="d-flex flex-column align-items-center justify-content-center vh-100 bg-white">
-          <img src="https://visora-dev-assets-id.assetsvsiddev.workers.dev/index/base-logo.png" alt="Logo" width="150" className="mb-4" />
+          <img src="/assets/img/logo.png" alt="Logo" width="150" className="mb-4" />
           
           <div className="card shadow-sm p-4 text-center" style={{ maxWidth: "400px", width: "90%" }}>
             <h5 className="mb-4">Verify you are human</h5>
@@ -371,7 +371,7 @@ export default function Home() {
                   <a href="/" className="app-brand-link">
                     <span className="app-brand-logo demo">
                       <span style={{ color: "#9055FD" }}>
-                        <img src="https://visora-dev-assets-id.assetsvsiddev.workers.dev/index/base-logo.png" alt="Vallzx Official" width="105" />
+                        <img src="/assets/img/logo.png" alt="Vallzx Official" width="105" />
                       </span>
                     </span>
                   </a>
@@ -446,7 +446,7 @@ export default function Home() {
 
           <div className="scrollspy-example" data-bs-spy="scroll">
             <section id="landingHero" className="section-py landing-hero position-relative">
-              <img src="https://api.vreden.my.id/assets/img/front-pages/backgrounds/hero-bg-light.png" alt="hero background" className="position-absolute top-0 start-0 w-100 h-100 z-n1" data-speed="1" data-app-light-img="front-pages/backgrounds/hero-bg-light.png" data-app-dark-img="front-pages/backgrounds/hero-bg-dark.png" />
+              <img src="/assets/img/front-pages/backgrounds/hero-bg-light.png" alt="hero background" className="position-absolute top-0 start-0 w-100 h-100 z-n1" data-speed="1" data-app-light-img="front-pages/backgrounds/hero-bg-light.png" data-app-dark-img="front-pages/backgrounds/hero-bg-dark.png" />
               <div className="container">
                 <div className="hero-text-box text-center">
                     <h3 className="text-rainbow-rgb fs-bold hero-title mb-4">Vallzx APIs</h3>
@@ -456,10 +456,10 @@ export default function Home() {
                 <div className="position-relative hero-animation-img">
                   <a href="https://www.vreden.my.id" target="_blank">
                     <div className="hero-dashboard-img text-center">
-                      <img src="https://api.vreden.my.id/assets/img/front-pages/landing-page/hero-dashboard-light.png" alt="hero dashboard" className="animation-img" data-speed="2" data-app-light-img="front-pages/landing-page/hero-dashboard-light.png" data-app-dark-img="front-pages/landing-page/hero-dashboard-dark.png" />
+                      <img src="/assets/img/front-pages/landing-page/hero-dashboard-light.png" alt="hero dashboard" className="animation-img" data-speed="2" data-app-light-img="front-pages/landing-page/hero-dashboard-light.png" data-app-dark-img="front-pages/landing-page/hero-dashboard-dark.png" />
                     </div>
                     <div className="position-absolute hero-elements-img">
-                      <img src="https://api.vreden.my.id/assets/img/front-pages/landing-page/hero-elements-light.png" alt="hero elements" className="animation-img" data-speed="4" data-app-light-img="front-pages/landing-page/hero-elements-light.png" data-app-dark-img="front-pages/landing-page/hero-elements-dark.png" />
+                      <img src="/assets/img/front-pages/landing-page/hero-elements-light.png" alt="hero elements" className="animation-img" data-speed="4" data-app-light-img="front-pages/landing-page/hero-elements-light.png" data-app-dark-img="front-pages/landing-page/hero-elements-dark.png" />
                     </div>
                   </a>
                 </div>
@@ -469,7 +469,7 @@ export default function Home() {
             <section id="landingFeatures" className="section-py landing-features">
               <div className="container">
                 <h6 className="text-center d-flex justify-content-center align-items-center mb-6">
-                  <img src="https://api.vreden.my.id/assets/img/front-pages/icons/section-title-icon.png" alt="section title icon" className="me-2" height="19" />
+                  <img src="/assets/img/front-pages/icons/section-title-icon.png" alt="section title icon" className="me-2" height="19" />
                   <span className="text-uppercase">Fitur Tersedia</span>
                 </h6>
                 <h5 className="text-center mb-2"><span className="h4 fw-bold">List fitur</span> yang kamu sediakan</h5>
@@ -477,42 +477,42 @@ export default function Home() {
                 <div className="features-icon-wrapper row gx-0 gy-12 gx-sm-6">
                   <div className="col-lg-4 col-sm-6 text-center features-icon-box">
                     <div className="features-icon mb-4">
-                      <img src="https://api.vreden.my.id/assets/img/front-pages/icons/terminal.svg" alt="Vallzx APIs" />
+                      <img src="/assets/img/front-pages/icons/terminal.svg" alt="Vallzx APIs" />
                     </div>
                     <h5 className="mb-2">Result Terbaik</h5>
                     <p className="features-icon-description">Response API berkualitas tinggi dan hampir tidak pernah mengalami error.</p>
                   </div>
                   <div className="col-lg-4 col-sm-6 text-center features-icon-box">
                     <div className="features-icon mb-4">
-                      <img src="https://api.vreden.my.id/assets/img/front-pages/icons/cpu.svg" alt="Vallzx APIs" />
+                      <img src="/assets/img/front-pages/icons/cpu.svg" alt="Vallzx APIs" />
                     </div>
                     <h5 className="mb-2">Kecerdasan Buatan</h5>
                     <p className="features-icon-description">Akses ke beberapa platform AI Chat maupun image generator secara free.</p>
                   </div>
                   <div className="col-lg-4 col-sm-6 text-center features-icon-box">
                     <div className="features-icon mb-4">
-                      <img src="https://api.vreden.my.id/assets/img/front-pages/icons/download-cloud.svg" alt="Vallzx APIs" />
+                      <img src="/assets/img/front-pages/icons/download-cloud.svg" alt="Vallzx APIs" />
                     </div>
                     <h5 className="mb-2">Download Media</h5>
                     <p className="features-icon-description">Downloader media sosial dengan kualitas terbaik tanpa delay maupun error.</p>
                   </div>
                   <div className="col-lg-4 col-sm-6 text-center features-icon-box">
                     <div className="features-icon mb-4">
-                      <img src="https://api.vreden.my.id/assets/img/front-pages/icons/award.svg" alt="Vallzx APIs" />
+                      <img src="/assets/img/front-pages/icons/award.svg" alt="Vallzx APIs" />
                     </div>
                     <h5 className="mb-2">API Terbaik</h5>
                     <p className="features-icon-description">Rest API Terbaik dengan catatan reputasi yang baik tanpa ada riwayat negatif dari users.</p>
                   </div>
                   <div className="col-lg-4 col-sm-6 text-center features-icon-box">
                     <div className="features-icon mb-4">
-                      <img src="https://api.vreden.my.id/assets/img/front-pages/icons/shield.svg" alt="Vallzx APIs" />
+                      <img src="/assets/img/front-pages/icons/shield.svg" alt="Vallzx APIs" />
                     </div>
                     <h5 className="mb-2">Api Protected</h5>
                     <p className="features-icon-description">Di lindungi oleh keamanan tingkat tinggi dengan bantuan cloudflare anti down kecuali maintenance.</p>
                   </div>
                   <div className="col-lg-4 col-sm-6 text-center features-icon-box">
                     <div className="features-icon mb-4">
-                      <img src="https://api.vreden.my.id/assets/img/front-pages/icons/package.svg" alt="Vallzx APIs" />
+                      <img src="/assets/img/front-pages/icons/package.svg" alt="Vallzx APIs" />
                     </div>
                     <h5 className="mb-2">Premium Package</h5>
                     <p className="features-icon-description">Menggunakan beberapa package premium yang berbayar, tetapi users dapat menikmatinya secara gratis.</p>
@@ -524,7 +524,7 @@ export default function Home() {
             <section id="landingservice" className="section-py bg-body landing-reviews">
               <div className="container">
                 <h6 className="text-center d-flex justify-content-center align-items-center mb-6">
-                  <img src="https://api.vreden.my.id/assets/img/front-pages/icons/section-title-icon.png" alt="section title icon" className="me-2" height="19" />
+                  <img src="/assets/img/front-pages/icons/section-title-icon.png" alt="section title icon" className="me-2" height="19" />
                   <span className="text-uppercase">Aplikasi Didukung</span>
                 </h6>
                 <h5 className="text-center mb-2"><span className="h4 fw-bold">Apps populer</span> yang disediakan</h5>
@@ -536,7 +536,7 @@ export default function Home() {
                     <div className="swiper-wrapper">
                       {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((i) => (
                         <div className="swiper-slide" key={i}>
-                          <img src={`https://api.vreden.my.id/assets/img/front-pages/branding/logo-${i}-light.png`} alt="client logo" className="client-logo" data-app-light-img={`front-pages/branding/logo-${i}-light.png`} data-app-dark-img={`front-pages/branding/logo-${i}-dark.png`} />
+                          <img src={`/assets/img/front-pages/branding/logo-${i}-light.png`} alt="client logo" className="client-logo" data-app-light-img={`front-pages/branding/logo-${i}-light.png`} data-app-dark-img={`front-pages/branding/logo-${i}-dark.png`} />
                         </div>
                       ))}
                     </div>
@@ -547,9 +547,9 @@ export default function Home() {
 
             <section id="landingTeam" className="section-py landing-team">
               <div className="container bg-icon-right position-relative">
-                <img src="https://api.vreden.my.id/assets/img/front-pages/icons/bg-right-icon-light.png" alt="section icon" className="position-absolute top-0 end-0" data-speed="1" data-app-light-img="https://api.vreden.my.id/assets/img/front-pages/icons/bg-right-icon-light.png" data-app-dark-img="https://api.vreden.my.id/assets/img/front-pages/icons/bg-right-icon-dark.png" />
+                <img src="/assets/img/front-pages/icons/bg-right-icon-light.png" alt="section icon" className="position-absolute top-0 end-0" data-speed="1" data-app-light-img="/assets/img/front-pages/icons/bg-right-icon-light.png" data-app-dark-img="/assets/img/front-pages/icons/bg-right-icon-dark.png" />
                 <h6 className="text-center d-flex justify-content-center align-items-center mb-6">
-                  <img src="https://api.vreden.my.id/assets/img/front-pages/icons/section-title-icon.png" alt="section title icon" className="me-2" height="19" />
+                  <img src="/assets/img/front-pages/icons/section-title-icon.png" alt="section title icon" className="me-2" height="19" />
                   <span className="text-uppercase">Contoh Response</span>
                 </h6>
                 <h5 className="text-center mb-2">Nilai sendiri <span className="h4 fw-bold">kualitas</span> response</h5>
@@ -579,9 +579,9 @@ export default function Home() {
 
             <section id="landingPricing" className="section-py bg-body landing-pricing">
               <div className="container bg-icon-left position-relative">
-                <img src="https://api.vreden.my.id/assets/img/front-pages/icons/bg-left-icon-light.png" alt="section icon" className="position-absolute top-0 start-0" data-speed="1" data-app-light-img="https://api.vreden.my.id/assets/img/front-pages/icons/bg-left-icon-light.png" data-app-dark-img="https://api.vreden.my.id/assets/img/front-pages/icons/bg-left-icon-dark.png" />
+                <img src="/assets/img/front-pages/icons/bg-left-icon-light.png" alt="section icon" className="position-absolute top-0 start-0" data-speed="1" data-app-light-img="/assets/img/front-pages/icons/bg-left-icon-light.png" data-app-dark-img="/assets/img/front-pages/icons/bg-left-icon-dark.png" />
                 <h6 className="text-center d-flex justify-content-center align-items-center mb-6">
-                  <img src="https://api.vreden.my.id/assets/img/front-pages/icons/section-title-icon.png" alt="section title icon" className="me-2" height="19" />
+                  <img src="/assets/img/front-pages/icons/section-title-icon.png" alt="section title icon" className="me-2" height="19" />
                   <span className="text-uppercase">Layanan Lainnya</span>
                 </h6>
                 <h5 className="text-center mb-2"><span className="h4 fw-bold">Spesial</span> price jika Anda mau.</h5>
@@ -600,37 +600,37 @@ export default function Home() {
                             <p className="small mb-0 text-body">Rest API ini gratis untuk semua orang.</p>
                           </div>
                         </div>
-                        <img src="https://api.vreden.my.id/assets/img/front-pages/icons/smiling-icon.png" alt="smiling icon" />
+                        <img src="/assets/img/front-pages/icons/smiling-icon.png" alt="smiling icon" />
                       </div>
                       <div className="card-body">
                         <ul className="list-unstyled">
                           <li>
                             <h6 className="mb-3">
-                              <img src="https://api.vreden.my.id/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
+                              <img src="/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
                               5 RPS
                             </h6>
                           </li>
                           <li>
                             <h6 className="mb-3">
-                              <img src="https://api.vreden.my.id/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
+                              <img src="/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
                               ∞ RPD
                             </h6>
                           </li>
                           <li>
                             <h6 className="mb-3">
-                              <img src="https://api.vreden.my.id/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
+                              <img src="/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
                               Rest API Terbaik 
                             </h6>
                           </li>
                           <li>
                             <h6 className="mb-3">
-                              <img src="https://api.vreden.my.id/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
+                              <img src="/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
                               Dilengkapi Chat AI
                             </h6>
                           </li>
                           <li>
                             <h6 className="mb-3">
-                              <img src="https://api.vreden.my.id/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
+                              <img src="/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
                               Image Generation AI
                             </h6>
                           </li>
@@ -660,37 +660,37 @@ export default function Home() {
                             <p className="small mb-0 text-body">Virtual number untuk verifikasi.</p>
                           </div>
                         </div>
-                        <img src="https://api.vreden.my.id/assets/img/front-pages/icons/smiling-icon.png" alt="smiling icon" />
+                        <img src="/assets/img/front-pages/icons/smiling-icon.png" alt="smiling icon" />
                       </div>
                       <div className="card-body">
                         <ul className="list-unstyled">
                           <li>
                             <h6 className="mb-3">
-                              <img src="https://api.vreden.my.id/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
+                              <img src="/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
                               180 Negara
                             </h6>
                           </li>
                           <li>
                             <h6 className="mb-3">
-                              <img src="https://api.vreden.my.id/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
+                              <img src="/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
                               1093 Aplikasi
                             </h6>
                           </li>
                           <li>
                             <h6 className="mb-3">
-                              <img src="https://api.vreden.my.id/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
+                              <img src="/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
                               Code SMS Cepat
                             </h6>
                           </li>
                           <li>
                             <h6 className="mb-3">
-                              <img src="https://api.vreden.my.id/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
+                              <img src="/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
                               Harga Terjangkau
                             </h6>
                           </li>
                           <li>
                             <h6 className="mb-3">
-                              <img src="https://api.vreden.my.id/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
+                              <img src="/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
                               Keamanan Terjamin
                             </h6>
                           </li>
@@ -720,43 +720,43 @@ export default function Home() {
                             <p className="small mb-0 text-body">Public repository bebas download.</p>
                           </div>
                         </div>
-                        <img src="https://api.vreden.my.id/assets/img/front-pages/icons/smiling-icon.png" alt="smiling icon" />
+                        <img src="/assets/img/front-pages/icons/smiling-icon.png" alt="smiling icon" />
                       </div>
                       <div className="card-body">
                         <ul className="list-unstyled">
                           <li>
                             <h6 className="mb-3">
-                              <img src="https://api.vreden.my.id/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
+                              <img src="/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
                               YouTube Scraper
                             </h6>
                           </li>
                           <li>
                             <h6 className="mb-3">
-                              <img src="https://api.vreden.my.id/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
+                              <img src="/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
                               WhatsApp Baileys
                             </h6>
                           </li>
                           <li>
                             <h6 className="mb-3">
-                              <img src="https://api.vreden.my.id/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
+                              <img src="/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
                               Update Min 1x/bulan
                             </h6>
                           </li>
                           <li>
                             <h6 className="mb-3">
-                              <img src="https://api.vreden.my.id/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
+                              <img src="/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
                               Bebas Download
                             </h6>
                           </li>
                           <li>
                             <h6 className="mb-3">
-                              <img src="https://api.vreden.my.id/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
+                              <img src="/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
                               Bebas Recode
                             </h6>
                           </li>
                           <li>
                             <h6 className="mb-3">
-                              <img src="https://api.vreden.my.id/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
+                              <img src="/assets/img/front-pages/icons/list-arrow-icon.png" alt="list arrow icon" className="me-2 pe-1 scaleX-n1-rtl" />
                               Mudah Dipahami
                             </h6>
                           </li>
@@ -808,9 +808,9 @@ export default function Home() {
 
             <section id="landingFAQ" className="section-py bg-body landing-faq">
               <div className="container bg-icon-right">
-                <img src="https://api.vreden.my.id/assets/img/front-pages/icons/bg-right-icon-light.png" alt="section icon" className="position-absolute top-0 end-0" data-speed="1" data-app-light-img="https://api.vreden.my.id/assets/img/front-pages/icons/bg-right-icon-light.png" data-app-dark-img="https://api.vreden.my.id/assets/img/front-pages/icons/bg-right-icon-dark.png" />
+                <img src="/assets/img/front-pages/icons/bg-right-icon-light.png" alt="section icon" className="position-absolute top-0 end-0" data-speed="1" data-app-light-img="/assets/img/front-pages/icons/bg-right-icon-light.png" data-app-dark-img="/assets/img/front-pages/icons/bg-right-icon-dark.png" />
                 <h6 className="text-center d-flex justify-content-center align-items-center mb-6">
-                  <img src="https://api.vreden.my.id/assets/img/front-pages/icons/section-title-icon.png" alt="section title icon" className="me-2" height="19" />
+                  <img src="/assets/img/front-pages/icons/section-title-icon.png" alt="section title icon" className="me-2" height="19" />
                   <span className="text-uppercase">Pertanyaan Umum</span>
                 </h6>
                 <h5 className="text-center mb-2">Pertanyaan yang sering<span className="h4 fw-bold"> diajukan</span></h5>
@@ -818,7 +818,7 @@ export default function Home() {
                 <div className="row gy-5">
                   <div className="col-lg-5">
                     <div className="text-center">
-                      <img src="https://api.vreden.my.id/assets/img/front-pages/landing-page/sitting-girl-with-laptop.png" alt="sitting girl with laptop" className="faq-image scaleX-n1-rtl" />
+                      <img src="/assets/img/front-pages/landing-page/sitting-girl-with-laptop.png" alt="sitting girl with laptop" className="faq-image scaleX-n1-rtl" />
                     </div>
                   </div>
                   <div className="col-lg-7">
@@ -872,7 +872,7 @@ export default function Home() {
             </section>
 
             <section id="landingCTA" className="section-py landing-cta p-lg-0 pb-0 position-relative">
-              <img src="https://api.vreden.my.id/assets/img/front-pages/backgrounds/cta-bg-light.png" className="position-absolute bottom-0 end-0 scaleX-n1-rtl h-100 w-100 z-n1" alt="cta image" data-speed="1" data-app-light-img="https://api.vreden.my.id/assets/img/front-pages/backgrounds/cta-bg-light.png" data-app-dark-img="https://api.vreden.my.id/assets/img/front-pages/backgrounds/cta-bg-dark.png" />
+              <img src="/assets/img/front-pages/backgrounds/cta-bg-light.png" className="position-absolute bottom-0 end-0 scaleX-n1-rtl h-100 w-100 z-n1" alt="cta image" data-speed="1" data-app-light-img="/assets/img/front-pages/backgrounds/cta-bg-light.png" data-app-dark-img="/assets/img/front-pages/backgrounds/cta-bg-dark.png" />
               <div className="container">
                 <div className="row align-items-center gy-5 gy-lg-0">
                   <div className="col-lg-6 text-center text-lg-start">
@@ -881,7 +881,7 @@ export default function Home() {
                     <a href="/dashboard" className="btn btn-lg" style={{ height: "48px", background: "linear-gradient(to right, #4361EE, #1D92F1)", color: "white" }}>Go to Dashboard</a>
                   </div>
                   <div className="col-lg-6 pt-lg-12">
-                    <img src="https://api.vreden.my.id/assets/img/front-pages/landing-page/cta-dashboard.png" alt="cta dashboard" className="img-fluid" />
+                    <img src="/assets/img/front-pages/landing-page/cta-dashboard.png" alt="cta dashboard" className="img-fluid" />
                   </div>
                 </div>
               </div>
@@ -889,9 +889,9 @@ export default function Home() {
 
             <section id="landingContact" className="section-py bg-body landing-contact">
               <div className="container bg-icon-left position-relative">
-                <img src="https://api.vreden.my.id/assets/img/front-pages/icons/bg-left-icon-light.png" alt="section icon" className="position-absolute top-0 start-0" data-speed="1" data-app-light-img="https://api.vreden.my.id/assets/img/front-pages/icons/bg-left-icon-light.png" data-app-dark-img="https://api.vreden.my.id/assets/img/front-pages/icons/bg-left-icon-dark.png" />
+                <img src="/assets/img/front-pages/icons/bg-left-icon-light.png" alt="section icon" className="position-absolute top-0 start-0" data-speed="1" data-app-light-img="/assets/img/front-pages/icons/bg-left-icon-light.png" data-app-dark-img="/assets/img/front-pages/icons/bg-left-icon-dark.png" />
                 <h6 className="text-center d-flex justify-content-center align-items-center mb-6">
-                  <img src="https://api.vreden.my.id/assets/img/front-pages/icons/section-title-icon.png" alt="section title icon" className="me-2" height="19" />
+                  <img src="/assets/img/front-pages/icons/section-title-icon.png" alt="section title icon" className="me-2" height="19" />
                   <span className="text-uppercase">Hubungi Kami</span>
                 </h6>
                 <h5 className="text-center mb-2"><span className="h4 fw-bold">Request</span> ke developer team.</h5>
@@ -934,14 +934,14 @@ export default function Home() {
 
           <footer className="landing-footer">
             <div className="footer-top position-relative overflow-hidden">
-              <img src="https://api.vreden.my.id/assets/img/front-pages/backgrounds/footer-bg.png" alt="footer bg" className="footer-bg banner-bg-img" />
+              <img src="/assets/img/front-pages/backgrounds/footer-bg.png" alt="footer bg" className="footer-bg banner-bg-img" />
               <div className="container">
                 <div className="row gx-0 gy-6 g-lg-10">
                   <div className="col-lg-5">
                     <a href="/dashboard" className="app-brand-link mb-6">
                       <span className="app-brand-logo demo">
                         <span style={{ color: "#9055FD" }}>
-                          <img src="https://visora-dev-assets-id.assetsvsiddev.workers.dev/index/base-logo.png" alt="Vallzx Official" width="105" />
+                          <img src="/assets/img/logo.png" alt="Vallzx Official" width="105" />
                         </span>
                       </span>
                     </a>

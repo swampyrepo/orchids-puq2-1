@@ -23,12 +23,15 @@ interface Profile {
   email: string;
   full_name: string | null;
   avatar_url: string | null;
+  tokens?: number;
   subscription_plan: string;
   provider: string;
   created_at: string;
   is_verification: boolean;
   user_number: number;
 }
+
+const DEFAULT_TOKENS = 1000000;
 
 export default function UserProfilePage() {
   const router = useRouter();
@@ -278,6 +281,16 @@ export default function UserProfilePage() {
     setSelectedFile(null);
     setProfile({ ...profile, full_name: editName.trim(), avatar_url: avatarUrl });
     setPreviewPfp(avatarUrl);
+  };
+
+  const formatTokens = (tokens: number) => {
+    if (tokens >= 1000000) {
+      return `${(tokens / 1000000).toFixed(1)}M`;
+    }
+    if (tokens >= 1000) {
+      return `${(tokens / 1000).toFixed(1)}K`;
+    }
+    return tokens.toLocaleString("id-ID");
   };
 
     const getAvatarUrl = () => {
@@ -715,9 +728,8 @@ export default function UserProfilePage() {
                   </div>
                 </div>
 
-                  {isOwner && (
-                    <>
-                      <div className="row g-6">
+                {isOwner && (
+                  <div className="row g-6">
                     <div className="col-md-6 col-lg-4">
                         <div className="card stat-card h-100">
                           <div className="card-body">
